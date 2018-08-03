@@ -2,8 +2,8 @@ var app = angular.module('cdg', [require('angular-route'),'angularUtils.directiv
 
 app.config(function($routeProvider){
 	$routeProvider.when("/", {
-		templateUrl : "views/pessoa.html",
-		controller : "pessoaController",
+		templateUrl : "views/cliente.html",
+		controller : "clienteController",
         access: { requiredLogin: false }
 	});
 });
